@@ -14,7 +14,7 @@ body{
 
 .header{
     border-bottom: 2px solid rgba(255, 255, 255, 0.853);
-    height: 93  px;
+    height: 93   px;
 }
 
 
@@ -24,30 +24,31 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0 20px ;
+    justify-content: center;
+    padding: 5px 20px ;
     align-items: center;
 }
 
 
 .logo{
     font-size: 24px;
+    margin-right: 20px  ;
 
 }
 
 .header__menu{
     display: flex;
     list-style-type: none;
-    padding-right: 50px;
+
     margin-top: 20px;
 }
 
 .menu__item{
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .menu__item:hover{
-    border-bottom: 1px solid white;
+    
     color:blueviolet;
     transition: 1000ms;
 }
@@ -75,4 +76,16 @@ body{
 .main__container{
     display: flex;
     justify-content: space-between;
+}
+
+
+.footer{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.853);
+    height: 9vh;
+    border: 1px solid white;
+    position: fixed;
+    bottom: 0;
+    min-width: 1040px;
+    max-width: 1920px;
+    left: auto;
 }
