@@ -1,65 +1,78 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: black;
 }
 
-body{
-    background: linear-gradient(rgb(90,5,5), rgb(50,3,3));
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+    transition: 1000ms;
+}
+body {
+    background-image: url(https://img-fotki.yandex.ru/get/6844/30348152.18d/0_7fd19_f09d5275_orig);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 99vh;
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: aliceblue;
+    color: black;
 }
 
-.header{
-    border-bottom: 2px solid rgba(255, 255, 255, 0.853);
-    height: 93   px;
+.header {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.853);
+    height: 93 px;
 }
 
 
-.header__container{
+.header__container {
     max-width: 1920px;
     width: 1010px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 5px 20px ;
+    padding: 5px 20px;
     align-items: center;
 }
 
 
-.logo{
+.logo {
     font-size: 24px;
-    margin-right: 20px  ;
+    margin-right: 100px;
 
 }
 
-.header__menu{
+.header__menu {
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
-
-    margin-top: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.menu__item{
+.menu__item {
     margin-right: 40px;
 }
 
-.menu__item:hover{
-    
-    color:blueviolet;
+.menu__item:hover {
+
+    color: white;
     transition: 1000ms;
 }
 
-.main{
+.main {
     max-width: 1920px;
-    width: 1010px;
     margin: 0 auto;
 }
 
-.contacts{
+.contacts {
     border: 2px solid;
     margin-top: 40px;
     border-radius: 20px;
@@ -68,24 +81,86 @@ body{
     background: rgba(100, 100, 100, 1);
 }
 
-.contacts:nth-child(2){
-    transform: translateY(50%);
+.contacts1 {
+    border: 2px solid;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+    background: rgba(100, 100, 100, 1);
+
+
 }
 
 
-.main__container{
+.contacts:nth-child(2) {}
+
+
+.main__container {
     display: flex;
     justify-content: space-between;
+    padding: 5px 40px;
+
 }
 
 
-.footer{
-    border-bottom: 2px solid rgba(255, 255, 255, 0.853);
-    height: 9vh;
-    border: 1px solid white;
+.footer {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.853);
+    max-height: 90px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.footer__container {
+
     position: fixed;
     bottom: 0;
-    min-width: 1040px;
-    max-width: 1920px;
     left: auto;
+}
+
+.contacts1 ul {
+    list-style-type: none;
+}
+
+
+.footer__info {
+    border: 2px solid;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 400px;
+    background: rgba(100, 100, 100, 1);
+    font-size: 10px;
+
+
+
+}
+
+
+.sheet {
+    border: 2px solid;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 30px;
+    width: 400px;
+    background: rgba(100, 100, 100, 1);
+    font-size: 25px;
+}
+
+.btn {
+    background: rgba(100, 100, 100, 1);
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.logo2 {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxSE9TmDWL6d8wl3PPPFEY6_AMTiLy47_rgqsEGT4k9L4J_HQC_6xeacZjzo84LSfRl6M&usqp=CAU);
+    width: 50px;
+    height: 25px;
+    background-size: cover;
+
+
 }
